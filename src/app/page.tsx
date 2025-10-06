@@ -1,4 +1,5 @@
 import { CallData } from "@/components/call-data";
+import { NavigationBar } from "@/components/navigation-bar";
 
 const sampleCallData = {
   summary:
@@ -128,6 +129,7 @@ const sampleCallData = {
 export default function Home() {
   return (
     <div className="min-h-screen bg-gray-50">
+      <NavigationBar />
       <CallData
         summary={sampleCallData.summary}
         callDetails={sampleCallData.callDetails}

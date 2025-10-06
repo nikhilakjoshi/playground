@@ -1,0 +1,4 @@
+- Remove the Search Workstation input box.
+- The menu botton and the profile avatar should on the next row to the Logo and on the same row as the navigation links.
+- Remove the border or separator between the logo row and the navigation links row.
+- The navigation links - Instead of background color change on hover, have white border/underline that animated between the hovered link. The border needs to stick to the bottom of the nav bar and must be 2px thick and white in color. Use framer motion for the animation.
