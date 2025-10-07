@@ -111,6 +111,14 @@ const navigationItems = [
     title: "Calls",
     href: "/call-list",
   },
+  {
+    title: "Voice Analysis",
+    href: "/voice-analysis-demo",
+  },
+  {
+    title: "Wavesurfer Demo",
+    href: "/wavesurfer-demo",
+  },
 ];
 
 // Main Navigation Bar Component

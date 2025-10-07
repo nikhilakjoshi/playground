@@ -1,5 +1,47 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## Voice Analysis Components
+
+This project includes two voice analysis implementations for audio waveform visualization and compliance monitoring:
+
+### Components
+
+1. **React Voice Visualizer** (`voice-analysis-v2.tsx`) - Original implementation
+2. **Wavesurfer.js** (`voice-analysis-wavesurfer.tsx`) - New implementation with advanced features
+
+### Features Comparison
+
+#### React Voice Visualizer
+
+- React-specific implementation
+- Built-in recording capabilities
+- Simpler integration
+- Basic waveform rendering
+- Limited customization
+
+#### Wavesurfer.js Implementation
+
+- High-performance canvas rendering
+- Advanced zoom functionality with mouse wheel and buttons
+- Interactive regions with drag/resize capabilities
+- Timeline display for better navigation
+- Real-time playback controls
+- Visual compliance markers (green for compliant, red for non-compliant)
+- Extensive plugin ecosystem
+
+### Demo Pages
+
+- `/voice-analysis-demo` - Side-by-side comparison of both components
+- `/wavesurfer-demo` - Standalone wavesurfer implementation
+
+### Installation
+
+The project includes the necessary wavesurfer.js dependencies:
+
+```bash
+npm install wavesurfer.js @wavesurfer/react
+```
+
 ## Getting Started
 
 First, run the development server:
@@ -15,6 +57,11 @@ bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+Navigate to the voice analysis demos using the navigation bar or directly:
+
+- [Voice Analysis Comparison](http://localhost:3000/voice-analysis-demo)
+- [Wavesurfer Demo](http://localhost:3000/wavesurfer-demo)
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 

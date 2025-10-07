@@ -1,0 +1,6 @@
+- Check and understand what has been implemented on the `voicde-analysis-v2.tsx` file.
+- Implement a similar waveform but this time use the `wavesurfer.js` library.
+- `https://wavesurfer.xyz/examples/?react.js` - This is an example of how to implement using react.
+- Use `https://wavesurfer.xyz/examples/?zoom-plugin.js`, `https://wavesurfer.xyz/examples/?regions.js` - Use these plugins to add zoom and regions functionality.
+- Use the playwright mcp to access these sites and get the necessary code/information.
+- The styling needs to match what is implemented in the `voice-analysis-v2.tsx` file.
