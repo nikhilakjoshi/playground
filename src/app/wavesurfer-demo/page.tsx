@@ -27,10 +27,34 @@ export default function WavesurferDemo() {
           </div>
 
           <div className="mb-8">
-            <h3 className="text-lg font-semibent mb-4">
-              Working Component with Timeline Plugin
+            <h3 className="text-lg font-semibold mb-4">
+              Enhanced Component: Timeline + Regions + Auto-Zoom
             </h3>
-            <VoiceAnalysisWorking />
+            <VoiceAnalysisWorking
+              complianceRegions={[
+                {
+                  id: "compliant-1",
+                  start: 10,
+                  end: 25,
+                  type: "compliant",
+                  content: "Agent followed script perfectly",
+                },
+                {
+                  id: "non-compliant-1",
+                  start: 45,
+                  end: 65,
+                  type: "non-compliant",
+                  content: "Missed required disclosure",
+                },
+                {
+                  id: "review-1",
+                  start: 85,
+                  end: 95,
+                  type: "review-required",
+                  content: "Customer objection handling",
+                },
+              ]}
+            />
           </div>
 
           <div className="mb-8">
